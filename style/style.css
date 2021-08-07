@@ -19,7 +19,8 @@ body {
 .user_form,
 .user_name,
 .change_name,
-.date {
+.date,
+.d_day {
   width: 100%;
   display: flex;
   justify-content: center;

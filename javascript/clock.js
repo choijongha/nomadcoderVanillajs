@@ -21,7 +21,6 @@ function getDate() {
     const DATE = date.getDate()
     const DAY = sevenDay[date.getDay()]
     clockDate.innerText = `${YEARS}. ${MONTH+1}. ${DATE} ${DAY} `
-    console.dir(DAY)
 }
 getDate(); 
 getClock();
