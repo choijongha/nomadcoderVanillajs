@@ -1,3 +1,6 @@
+body {
+  min-width: 380px;
+}
 .todo_list {
   width: 100%;
   display: flex;
@@ -12,10 +15,11 @@
   padding-left: 40px;
 }
 .time_wise_saying,
-.clock_time,
+.clock,
 .user_form,
 .user_name,
-.change_name {
+.change_name,
+.date {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -24,16 +28,29 @@
 .todo_list {
   height: 50vh;
 }
+.date {
+  margin-top: 30px;
+}
+.time_wise_saying {
+  padding: 20px 0 0 0;
+}
+
 .clock_time {
   font-size: 50px;
+  font-weight: 900;
 }
-.clock,
-.time_wise_saying {
-  padding: 20px 0 20px 0;
+.clock_time_second {
+  padding-top: 25px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: lighter;
 }
 .user_name,
 .user_form {
   user-select: none;
+}
+.user_name {
+  margin-top: 50px;
 }
 .change_name {
   font-size: 10px;

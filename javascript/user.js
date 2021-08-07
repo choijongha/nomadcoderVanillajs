@@ -20,6 +20,7 @@ function removeUser() {
     userForm.classList.remove(HIDDEN);
     changeName.classList.add(HIDDEN);
     userInput.value = "";
+    userInput.focus();
 }
 
 if (localStorage.getItem("user") === null) {
