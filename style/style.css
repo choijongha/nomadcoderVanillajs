@@ -1,0 +1,49 @@
+.todo_list {
+  width: 100%;
+  display: flex;
+}
+.today_list {
+  width: 60%;
+}
+.yesterday_list {
+  width: 40%;
+}
+.today_list form {
+  padding-left: 40px;
+}
+.time_wise_saying,
+.clock_time,
+.user_form,
+.user_name,
+.change_name {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo_list {
+  height: 50vh;
+}
+.clock_time {
+  font-size: 50px;
+}
+.clock,
+.time_wise_saying {
+  padding: 20px 0 20px 0;
+}
+.user_name,
+.user_form {
+  user-select: none;
+}
+.change_name {
+  font-size: 10px;
+  color: rgb(161, 161, 161);
+}
+.change_name:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
