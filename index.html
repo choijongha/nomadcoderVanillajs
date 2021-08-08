@@ -9,27 +9,41 @@
 </head>
 <body>
     <div class="todo_list">
-        <div class="today_list">
-            <ol>tlist</ol>
-            <form>
-                <input type="text" />
-            </form>
-        </div>
-        <div class="yesterday_list">
-            <ol >ylist</ol>
-        </div>
+        <form class="todo_form">
+            <div>오늘의 할 일</div>
+            <input type="text">
+            <div id="weather">
+                <span></span>
+                <span></span>
+                <div></div>
+            </div>
+        </form>
+        <ul class="today_list">
+        </ul>
     </div>
-    <div class="time_wise_saying">saying</div>
-    <form class="d_day">
-        <input class="d_day_input" type="datetime-local">
-        <input type="submit">
-    <div class="d_day_result"></div>
-    </form>
-    <div class="date"></div>
+    <div class="time_saying">
+        <span class="time_wise_saying"></span>
+        <span class="time_wise_saying_autor"></span>
+    </div>
+    <!-- <div class="d_day">
+        <form class="d_day_form hidden">
+            <input class="d_day_input" type="datetime-local">
+            <input type="submit">
+        </form>
+            <div class="d_day_result"></div>
+            <div class="change_time hidden">시간을 변경할래요</div>
+    </div> -->
+    
     <div class="clock">
-        <div class="clock_time"></div>
-        <span class="clock_time_second"></span>
+        <div class="date"></div>
+        <div>
+            <div class="clock_time"></div>
+            <span class="clock_time_second"></span>    
+        </div>    
     </div>
+    <!-- <div class="change_button">
+        <button >▷</button>
+    </div> -->
     <form class="user_form">
         <input type="text" placeholder="who are you?"/>
     </form>
@@ -37,6 +51,9 @@
     <div class="change_name hidden">이름을 변경할래요</div>
     <script src="javascript/user.js"></script>
     <script src="javascript/clock.js"></script>
-    <script src="javascript/dday.js"></script>
+    <script src="javascript/saying.js"></script>
+    <script src="javascript/bgimage.js"></script>
+    <script src="javascript/todo.js"></script>
+    <script src="javascript/weather.js"></script>
 </body>
 </html>
